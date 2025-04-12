@@ -1,0 +1,30 @@
+HTML
+
+<div class="card container">
+  <div class="txt">
+    <h2>Felonious Gru</h2>
+    <h4><a href=#>example.com</a>
+  </div>
+  <div>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Gru_%28Despicable_Me%29.png/130px-Gru_%28Despicable_Me%29.png" class="pfp">
+  </div>
+</div>
+
+CSS
+
+.card {
+  width: 280px;
+  padding: 20px;
+  margin: 30px;
+  border-radius:5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  display:flex;
+  justify-content: space-between;
+}
+
+.pfp {
+  width:50px; border: 1px solid black; border-radius:50%
+}
